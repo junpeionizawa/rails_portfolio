@@ -65,7 +65,10 @@ gem 'refile', require: "refile/rails", github: 'manfe/refile'
 
 gem "refile-mini_magick"
 
+<<<<<<< HEAD
 gem'jp_prefecture'
+=======
+>>>>>>> 7b844fae06aa2f44fb2e5748ae13235198432ace
 
 gem 'pry-rails'
 
