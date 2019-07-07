@@ -18,6 +18,7 @@ class UserController < ApplicationController
   	   redirect_to user_top_path
   	else
   	   render 'new'
+  	end
   end
   def user_params
     params.require(:user).permit(:name, :mail, :password, :password_confirmation)
